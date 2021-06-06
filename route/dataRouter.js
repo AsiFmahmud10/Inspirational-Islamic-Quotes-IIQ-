@@ -2,10 +2,12 @@ const data = require('../Data/data.js')
 const express = require('express')
 const dataRouter = express.Router()
 
+
 const handleUndefined =(response,res)=>{
             if(response === undefined )
                  res.send("Sorry we dont have that id")
 }
+
 
 dataRouter.get('/part', (req, res, next)=>{  
     const {start,end} = req.query
