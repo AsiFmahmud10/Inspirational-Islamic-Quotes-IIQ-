@@ -1,8 +1,11 @@
 {
   "name": "IIQ",
   "version": "1.0.0",
-  "description": "It is about Inspirational Islamic Quote",
+  "description": "It is about Islamic Inspirational Quotes",
   "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
   "author": "Asif Mahmud",
   "license": "MIT",
   "dependencies": {

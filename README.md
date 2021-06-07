@@ -11,10 +11,10 @@ Anyone can contribute to this project by providing their favourite inspirational
 
     From this API you will get:
 
-    *Motivational Islamic quote by ID
-    *Motivational Islamic quotes by author
-    *Motivational Islamic quotes by keyword
-    *Motivational Islamic quotes by range
+  Motivational Islamic quote by ID
+    Motivational Islamic quotes by author
+    Motivational Islamic quotes by keyword
+Motivational Islamic quotes by range
 
 ## Authors
 
@@ -33,7 +33,7 @@ https://github.com/mushfiq-906
 
 ## Version History
 
-      - Initial Release
+       Initial Release
 
 ## License
 
