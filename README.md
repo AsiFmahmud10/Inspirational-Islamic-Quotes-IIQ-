@@ -10,7 +10,7 @@ Anyone can contribute to this project by providing their favourite inspirational
 ## Functionalities
 
     From this API you will get:
-
+    _ _ _
     Motivational Islamic quote by ID
     Motivational Islamic quotes by author
     Motivational Islamic quotes by keyword
