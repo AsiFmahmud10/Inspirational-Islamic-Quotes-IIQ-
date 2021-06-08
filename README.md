@@ -37,7 +37,9 @@ Output:
 }
 
 Searching by author:
-FullUrl=`${BaseURL}/search/author?q=${authorName}`
+
+FullUrl=`${BaseURL}/search/author?q=${authorName}` // authorName ( Case insensitive )
+
 Example:
 axios.get(`https://salty-crag-26485.herokuapp.com/search/author?q=Hazrat`)
 .then((res)=>{
@@ -55,18 +57,39 @@ Output:
 "author":"Hazrat Ali (R.A)",
 "quote":"See the bad inside yourself, and see the good inside others."
 },
-...
-...
-...
+...........................
+.................................................
 ]
 
 Searching by keyword:
-FullUrl=`${BaseURL}/search/quote?q=${keyword}`
+
+    FullUrl=`${BaseURL}/search/quote?q=${keyword}`  //  keyword ( Case insensitive )
+
+    Example :
+        axios.get(`https://salty-crag-26485.herokuapp.com/search/quote?q=see`)
+        .then((res)=>{
+        console.log(res)
+        })
+
+     Output:
+
+    [
+            {
+                "id": "1",
+                "author": "Hazrat Ali (R.A)",
+                "quote": "A hopeless man sees difficulties in every chance, but a hopeful person sees chances in every difficulty."
+            },
+            {
+            "id": "26",
+            "author": "Hazrat Ali (R.A)",
+            "quote": "Do not let your difficulties fill you with anxiety, after all it is only in the darkest nights that stars shine more brightly."
+            }
+    ]
 
 Searching by range:
 
-FullUrl=`${BaseURL}/data/part?start=${fromId}&end=${toId}` //getting data in an specific range
-FullUrl=`${BaseURL}/data/part?end=${toId}` //getting data from ID 1 to ${toId}
+    FullUrl=`${BaseURL}/data/part?start=${fromId}&end=${toId}` //getting data in an specific range
+    FullUrl=`${BaseURL}/data/part?end=${toId}` //getting data from ID 1 to ${toId}
 
 ## Authors
 
@@ -85,8 +108,8 @@ https://github.com/mushfiq-906
 
 ## Version History
 
-       Initial Release v1.0.0
+    Initial Release v1.0.0
 
 ## License
 
-MIT
+    MIT
