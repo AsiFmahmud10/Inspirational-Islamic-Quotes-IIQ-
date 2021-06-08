@@ -23,25 +23,22 @@ https://salty-crag-26485.herokuapp.com/
 ## How to use
 
 Calling by ID:
-
-    FullUrl=`${BaseURL}/data/${dataId}`
-
+FullUrl=`${BaseURL}/data/${dataId}`
 Example:
-
-    axios.get(`https://salty-crag-26485.herokuapp.com/data/1`)
-    .then((res)=>{
-    console.log(res)
-    })
-    Output:
-        {
-            "id":"1",
-            "author":"Hazrat Ali (R.A)",
-            "quote":"A hopeless man sees difficulties in every chance, but a hopeful person sees chances in every difficulty."
-        }
+axios.get(`https://salty-crag-26485.herokuapp.com/data/1`)
+.then((res)=>{
+console.log(res)
+})
+Output:
+{
+"id":"1",
+"author":"Hazrat Ali (R.A)",
+"quote":"A hopeless man sees difficulties in every chance, but a hopeful person sees chances in every difficulty."
+}
 
 Searching by author:
 
-    FullUrl=`${BaseURL}/search/author?q=${authorName}` // authorName ( Case insensitive )
+FullUrl=`${BaseURL}/search/author?q=${authorName}` // authorName ( Case insensitive )
 
 Example:
 
@@ -53,19 +50,18 @@ Example:
 Output:
  
  [
-      {
+        {
         "id":"1",
         "author":"Hazrat Ali (R.A)",
         "quote":"A hopeless man sees difficulties in every chance, but a hopeful person sees chances in every difficulty."
-       },
-       {
+        },
+        {
         "id":"3",
         "author":"Hazrat Ali (R.A)",
         "quote":"See the bad inside yourself, and see the good inside others."
-       },
+        },
         ...........................
         .................................................
-      } 
     ]
 
 Searching by keyword:
@@ -97,7 +93,61 @@ Searching by keyword:
 Searching by range:
 
     FullUrl=`${BaseURL}/data/part?start=${fromId}&end=${toId}` //getting data in an specific range
+    
+    Example:
+    
+        axios.get(`https://salty-crag-26485.herokuapp.com/data/part?start=3&end=5`)
+        .then((res)=>{
+        console.log(res)
+        })
+    
+    Output:
+    [
+        {
+            "id": "3",
+            "author": "Hazrat Ali (R.A)",
+            "quote": "See the bad inside yourself, and see the good inside others."
+        },
+        {
+            "id": "4",
+            "author": "Imam Ali (A.S)",
+            "quote": "Be like the flower that gives its fragrance even to the hand that crushes it."
+        },
+        {
+            "id": "5",
+            "author": "Imam Ali (A.S)",
+            "quote": "Nothing hurts a good soul and a kind heart more than to live amongst people who cannot understand it."
+        }
+    ]
+
     FullUrl=`${BaseURL}/data/part?end=${toId}` //getting data from ID 1 to ${toId}
+    
+    Example:
+        axios.get(`https://salty-crag-26485.herokuapp.com/data/part?end=3`)
+        .then((res)=>{
+        console.log(res)
+        })
+        
+    Output:
+    [
+        {
+            "id": "1",
+            "author": "Hazrat Ali (R.A)",
+            "quote": "A hopeless man sees difficulties in every chance, but a hopeful person sees chances in every difficulty."
+        },
+        {
+            "id": "2",
+            "author": "Imam Ali (A.S)",
+            "quote": "A man who draws close to you for a purpose, will abandon you when it is fulfilled."
+        },
+        {
+            "id": "3",
+            "author": "Hazrat Ali (R.A)",
+            "quote": "See the bad inside yourself, and see the good inside others."
+        }
+    ]
+
+
 
 ## Authors
 
@@ -109,7 +159,7 @@ Searching by range:
     Md. Samirul Alam
     https://github.com/SamirulAlam
 
-    Mushfic Shafi
+    Mushfiq Shafi
     https://github.com/mushfiq-906
     
     Asif Mahmud
