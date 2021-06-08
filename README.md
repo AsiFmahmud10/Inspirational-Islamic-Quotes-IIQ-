@@ -70,7 +70,7 @@ Searching by keyword:
 
  Example :
  
-        axios.get(`https://salty-crag-26485.herokuapp.com/search/quote?q=see`)
+        axios.get(`https://salty-crag-26485.herokuapp.com/search/quote?q=difficulties`)
         .then((res)=>{
         console.log(res)
         })
