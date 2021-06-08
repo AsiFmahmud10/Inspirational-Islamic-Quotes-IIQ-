@@ -41,37 +41,41 @@ Searching by author:
 FullUrl=`${BaseURL}/search/author?q=${authorName}` // authorName ( Case insensitive )
 
 Example:
-axios.get(`https://salty-crag-26485.herokuapp.com/search/author?q=Hazrat`)
-.then((res)=>{
-console.log(res)
-})
+
+    axios.get(`https://salty-crag-26485.herokuapp.com/search/author?q=Hazrat`)
+    .then((res)=>{
+    console.log(res)
+    })
+    
 Output:
-[
-{
-"id":"1",
-"author":"Hazrat Ali (R.A)",
-"quote":"A hopeless man sees difficulties in every chance, but a hopeful person sees chances in every difficulty."
-},
-{
-"id":"3",
-"author":"Hazrat Ali (R.A)",
-"quote":"See the bad inside yourself, and see the good inside others."
-},
-...........................
-.................................................
-]
+ 
+ [
+        {
+        "id":"1",
+        "author":"Hazrat Ali (R.A)",
+        "quote":"A hopeless man sees difficulties in every chance, but a hopeful person sees chances in every difficulty."
+        },
+        {
+        "id":"3",
+        "author":"Hazrat Ali (R.A)",
+        "quote":"See the bad inside yourself, and see the good inside others."
+        },
+        ...........................
+        .................................................
+    ]
 
 Searching by keyword:
 
     FullUrl=`${BaseURL}/search/quote?q=${keyword}`  //  keyword ( Case insensitive )
 
-    Example :
+ Example :
+ 
         axios.get(`https://salty-crag-26485.herokuapp.com/search/quote?q=see`)
         .then((res)=>{
         console.log(res)
         })
 
-     Output:
+ Output:
 
     [
             {
@@ -93,22 +97,24 @@ Searching by range:
 
 ## Authors
 
-Contributors names and contact info
-
-Asif Mahmud
-https://github.com/AsiFmahmud10
+    Asif Mahmud
+    https://github.com/AsiFmahmud10
 
 ## Contributors
 
-Md. Samirul Alam
-https://github.com/SamirulAlam
+    Md. Samirul Alam
+    https://github.com/SamirulAlam
 
-Mushfic Shafi
-https://github.com/mushfiq-906
+    Mushfic Shafi
+    https://github.com/mushfiq-906
+    
+    Asif Mahmud
+    https://github.com/AsiFmahmud10
+
 
 ## Version History
 
-    Initial Release v1.0.0
+    Initial Release -v1.0.0
 
 ## License
 
