@@ -57,14 +57,15 @@ Output:
         "id":"1",
         "author":"Hazrat Ali (R.A)",
         "quote":"A hopeless man sees difficulties in every chance, but a hopeful person sees chances in every difficulty."
-        },
-        {
+       },
+       {
         "id":"3",
         "author":"Hazrat Ali (R.A)",
         "quote":"See the bad inside yourself, and see the good inside others."
-        },
+       },
         ...........................
         .................................................
+      } 
     ]
 
 Searching by keyword:
