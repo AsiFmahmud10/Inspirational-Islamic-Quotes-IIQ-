@@ -11,6 +11,7 @@ app.use(helmet())
 app.use(express.json())
 app.use(express.urlencoded())
 
+let port = process.env.PORT || 4000
 
 // router
 const dataRouter = require('./route/dataRouter.js')
@@ -21,7 +22,7 @@ app.use('/data',dataRouter)
 app.use('/search', searchRouter)
 
 
-app.listen(process.env.PORT || 4000 , ()=>{
-    console.log("App is connected on Port 3000")
+app.listen(port , ()=>{
+    console.log(`App is connected on Port ${port}`)
 })
 
