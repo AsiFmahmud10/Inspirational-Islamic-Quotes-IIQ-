@@ -162,11 +162,11 @@ Searching by range:
 ## Contributors
 
     
-    [Md. Samirul Alam](https://github.com/SamirulAlam)
+    [Md. Samirul Alam] (https://github.com/SamirulAlam)
 
-    [Mushfiq Shafi](https://github.com/mushfiq-906)
+    [Mushfiq Shafi] (https://github.com/mushfiq-906)
     
-    [Asif Mahmud](https://github.com/AsiFmahmud10)
+    [Asif Mahmud] (https://github.com/AsiFmahmud10)
 
 
 ## Version History
