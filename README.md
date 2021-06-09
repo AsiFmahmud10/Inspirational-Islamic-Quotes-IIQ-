@@ -157,18 +157,16 @@ Searching by range:
 ## Authors
 
     Asif Mahmud
-    https://github.com/AsiFmahmud10
+    [link](https://github.com/AsiFmahmud10)
 
 ## Contributors
 
-    Md. Samirul Alam
-    https://github.com/SamirulAlam
-
-    Mushfiq Shafi
-    https://github.com/mushfiq-906
     
-    Asif Mahmud
-    https://github.com/AsiFmahmud10
+    [Md. Samirul Alam](https://github.com/SamirulAlam)
+
+    [Mushfiq Shafi](https://github.com/mushfiq-906)
+    
+    [Asif Mahmud](https://github.com/AsiFmahmud10)
 
 
 ## Version History
