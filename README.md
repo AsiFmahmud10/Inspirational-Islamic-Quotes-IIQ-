@@ -162,7 +162,7 @@ Searching by range:
 ## Contributors
 
     
-    [Md. Samirul Alam] (http://github.com/SamirulAlam)
+    [Md. Samirul Alam] (https://github.com/SamirulAlam)
 
     [Mushfiq Shafi] (https://github.com/mushfiq-906)
     
